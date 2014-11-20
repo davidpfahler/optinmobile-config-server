@@ -18,5 +18,8 @@
   "homepage": "https://github.com/boennemann/optinmobile-config-server",
   "devDependencies": {
     "foreman": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.10.2"
   }
 }
