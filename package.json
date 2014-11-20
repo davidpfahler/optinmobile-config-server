@@ -20,6 +20,8 @@
     "foreman": "^1.1.0"
   },
   "dependencies": {
+    "basic-auth-connect": "^1.0.0",
+    "body-parser": "^1.9.2",
     "cors": "^2.5.2",
     "cradle": "^0.6.7",
     "express": "^4.10.2"
