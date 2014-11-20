@@ -4,3 +4,10 @@ node_js:
 notifications:
   email:
   - false
+deploy:
+  provider: heroku
+  api_key:
+    secure: D5Yhm8fqFDxD9Nedv0AOobyHu+sDA9gVSHSqo+giWaJEgDfEN7YJjuYjj9Ss33kOPbgTFF5cv91UgaqyqhXOagiph3V5xCa6VhQLQf6j/cPMVvLniOIgwPLn2pQbZLirSSmlhp2VRt+wcZ8D0Yd1uSNXXG+800J+Z7Fo9lLAJr8=
+  app: optinmobile-config-server
+  on:
+    repo: boennemann/optinmobile-config-server
