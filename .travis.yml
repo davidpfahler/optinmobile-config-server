@@ -4,6 +4,8 @@ node_js:
 notifications:
   email:
   - false
+  slack:
+    secure: EMPGT5o29y/RgviRB41uTCsgwsUQVd52N+MJb1sBEcANhCkwXVdMWhDthnZuw5hnGz+oLR97/xdEuVLv/gE2liQ6s5jBSIVyplaYnNrEXKxBOhNBdJZC+MPEKjItboHXTGkNulfSD3jdYnjwoO2dQ9TQED2dqceLaudDi42b3e0=
 deploy:
   provider: heroku
   api_key:
