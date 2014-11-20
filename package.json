@@ -1,0 +1,22 @@
+{
+  "name": "optinmobile-config-server",
+  "version": "1.0.0",
+  "description": "delivers configuration and build to optionmobile client app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests yet\"",
+    "start": "nf start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boennemann/optinmobile-config-server.git"
+  },
+  "author": "Stephan Bönnemann",
+  "bugs": {
+    "url": "https://github.com/boennemann/optinmobile-config-server/issues"
+  },
+  "homepage": "https://github.com/boennemann/optinmobile-config-server",
+  "devDependencies": {
+    "foreman": "^1.1.0"
+  }
+}
